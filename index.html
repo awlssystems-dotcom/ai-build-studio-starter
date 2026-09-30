@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="__PAGE_DESCRIPTION__"
+    />
+    <link rel="canonical" href="__PAGE_URL__" />
+    <meta property="og:title" content="__PAGE_TITLE__" />
+    <meta property="og:description" content="__PAGE_DESCRIPTION__" />
+    <meta property="og:url" content="__PAGE_URL__" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AI Build Studio" />
+    <meta property="og:image" content="https://example.com/assets/studio-hero.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="__PAGE_TITLE__" />
+    <meta name="twitter:description" content="__PAGE_DESCRIPTION__" />
+    <meta name="twitter:image" content="https://example.com/assets/studio-hero.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#111111" />
+    <link rel="preload" as="image" href="/assets/studio-hero.svg" />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/IBMPlexSans-Regular-Latin1.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/IBMPlexSansCondensed-Bold-Latin1.woff2" crossorigin />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "AI Build Studio",
+        "url": "https://example.com/",
+        "description": "Websites, quote calculators, and practical AI tools for small businesses.",
+        "areaServed": "US",
+        "serviceType": ["AI websites", "Chatbots", "Calculators", "Request forms", "Dashboards", "Automations"]
+      }
+    </script>
+    <script>
+      (() => {
+        const token = "__CF_WEB_ANALYTICS_TOKEN__";
+        if (!token || ["localhost", "127.0.0.1"].includes(location.hostname)) return;
+        const script = document.createElement("script");
+        script.defer = true;
+        script.src = "https://static.cloudflareinsights.com/beacon.min.js";
+        script.dataset.cfBeacon = JSON.stringify({ token });
+        document.head.appendChild(script);
+      })();
+    </script>
+    <script>
+      (() => {
+        const measurementId = "__GA4_MEASUREMENT_ID__";
+        if (!measurementId || ["localhost", "127.0.0.1"].includes(location.hostname)) return;
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+        document.head.appendChild(script);
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function gtag() {
+          window.dataLayer.push(arguments);
+        };
+        window.gtag("js", new Date());
+        window.gtag("config", measurementId);
+      })();
+    </script>
+    <title>__PAGE_TITLE__</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

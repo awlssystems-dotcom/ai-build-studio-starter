@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AI Build Studio">
+  <rect width="64" height="64" rx="14" fill="#111111" />
+  <path d="M18 43L28 18H36L46 43H39.5L37.5 37.5H26.3L24.3 43H18ZM28.1 32.3H35.7L32 21.9L28.1 32.3Z" fill="#fffdf7" />
+  <path d="M47 18H53V43H47V18Z" fill="#ff6a50" />
+</svg>
